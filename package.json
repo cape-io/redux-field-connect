@@ -1,13 +1,13 @@
 {
-  "name": "redux-field",
-  "version": "4.5.0",
-  "description": "Redux form field reducer and actions.",
-  "homepage": "https://github.com/cape-io/redux-field",
+  "name": "redux-field-connect",
+  "version": "1.0.1",
+  "description": "React Redux form field connectors.",
+  "homepage": "https://github.com/cape-io/redux-field-connect",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
   "main": "lib/index",
   "repository": "cape-io/redux-field",
   "bugs": {
-    "url": "https://github.com/cape-io/redux-field/issues"
+    "url": "https://github.com/cape-io/redux-field-connect/issues"
   },
   "tags": [
     "react",
@@ -27,17 +27,15 @@
     "lint": "eslint examples src test",
     "test": "npm run test:node | faucet",
     "test:node": "babel-tape-runner test/**/*spec.js",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
-    "cape-lodash": "^1.10.0",
-    "cape-redux": "^3.1.0",
     "cape-select": "^2.4.0",
     "lodash": "^ 4.17.2",
     "react-redux": "^5.0.1",
     "redux": "^3.6.0",
-    "reselect": "^2.5.4",
-    "seamless-immutable": "^6.1.3"
+    "redux-field": "^5.1.0",
+    "reselect": "^3.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
