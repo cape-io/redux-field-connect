@@ -26,6 +26,17 @@ function CoordsInput() {
 
 ```
 
-**Example:** [code](https://www.github.com/cape-io/geo) - [website](https://geo.cape.io).
+**Working Example:** [code](https://www.github.com/cape-io/geo) - [website](https://geo.cape.io).
 
 ### `connectField({})(Component)`
+
+When your needs are more complicated and you want a component injected with _all_ the action handlers and _all_ of the field state. Actions are grouped into `fieldEvent`, `formEvent`, `formHandler`. The state in added as the `form` property.
+
+Added props:
+
+- **fieldEvent**: clear, clearError, close, error, invalid, meta, open, save, saved, savedProgress, valid
+- **formEvent**: onBlur, onChange, onFocus, onInput, onSubmit
+- **formHandler**: handleBlur, handleChange, handleFocus, handleInput, handleSubmit
+- **form**: blur, dragCount, error, errorMessage, focus, hasError, id, initialValue, invalid, invalidValue, isClosed, isDirty, isEditing, isOpen, isPristine, isSaved, isSaving, isTouched, isValid, meta, savedProgress, savedValue, status, suggestion, valid, validValue, value
+
+@see [connectField](https://github.com/cape-io/redux-field-connect/blob/master/src/connectField.js)
