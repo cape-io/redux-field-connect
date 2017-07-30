@@ -6,7 +6,7 @@ These are some `react-redux` wrappers/containers for the `redux-field` module. B
 
 ### `connectInput(Component)`
 
-Use this when you want to attach action handlers (`onBlur, onChange, onFocus, onInput, onSubmit`) and `value` to an input field. @see [getFormEvents](https://github.com/cape-io/redux-field/blob/master/src/actions.js#L73-L77)
+Use this when you want to attach action handlers (`onBlur, onChange, onFocus, onInput, onSubmit`) and result `value` to an input field. @see [connectInput](https://github.com/cape-io/redux-field-connect/blob/master/src/connectInput.js) [getFormEvents](https://github.com/cape-io/redux-field/blob/master/src/actions.js#L73-L77)
 
 **Over Simplified Example:**
 
