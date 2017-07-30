@@ -1,3 +1,7 @@
-## [5.0.0]
+## [1.0.2]
 
-* Split out connect into a new module.
+* Documentation updates
+
+## [1.0.1]
+
+* Init
