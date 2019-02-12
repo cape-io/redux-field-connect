@@ -1,4 +1,4 @@
-# redux-field-connect 1.0.2
+# redux-field-connect
 
 These are some `react-redux` wrappers/containers for the `redux-field` module. Because `redux-field` is not always used with React these are split into a dedicated module.
 
@@ -28,7 +28,7 @@ function CoordsInput() {
 
 **Working Example:** [code](https://www.github.com/cape-io/geo) - [website](https://geo.cape.io).
 
-### `connectField({})(Component)`
+<!-- ### `connectField({})(Component)`
 
 When your needs are more complicated and you want a component injected with _all_ the action handlers and _all_ of the field state. Actions are grouped into `fieldEvent`, `formEvent`, `formHandler`. The state in added as the `form` property.
 
@@ -39,4 +39,4 @@ Added props:
 - **formHandler**: `handleBlur, handleChange, handleFocus, handleInput, handleSubmit`
 - **form**: `blur, dragCount, error, errorMessage, focus, hasError, id, initialValue, invalid, invalidValue, isClosed, isDirty, isEditing, isOpen, isPristine, isSaved, isSaving, isTouched, isValid, meta, savedProgress, savedValue, status, suggestion, valid, validValue, value`
 
-@see [connectField](https://github.com/cape-io/redux-field-connect/blob/master/src/connectField.js)
+@see [connectField](https://github.com/cape-io/redux-field-connect/blob/master/src/connectField.js) -->
