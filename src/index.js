@@ -1,2 +1,4 @@
-export connectField from './connectField'
-export connectInput from './connectInput'
+// export connectField from './connectField'
+import connectInput from './connectInput'
+
+export default connectInput

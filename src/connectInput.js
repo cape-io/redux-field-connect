@@ -7,7 +7,8 @@ export const mapStateToProps = createStructuredSelector({
   value: selectFieldValue,
 })
 
-export const mapDispatchToProps = (dispatch, ownProps) =>
+export const mapDispatchToProps = (dispatch, ownProps) => (
   bindActionCreators(getFormEvents(getPrefix(ownProps)), dispatch)
+)
 
 export default connect(mapStateToProps, mapDispatchToProps)
