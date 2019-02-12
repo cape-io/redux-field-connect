@@ -1,6 +1,6 @@
 {
   "name": "redux-field-connect",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React Redux form field connectors.",
   "homepage": "https://github.com/cape-io/redux-field-connect",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
